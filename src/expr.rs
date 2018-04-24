@@ -11,4 +11,11 @@ fn main() {
     } else {
         println!("y is not less than 200");
     }
+
+    let somenum = if y < 100 {
+        200
+    } else {
+        300
+    };
+    println!("value of somenume is {}", somenum)
 }
