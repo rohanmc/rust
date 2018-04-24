@@ -15,4 +15,7 @@ float 64 = {} ",x,y,z, l, m);
    println!("tuple = {:?}",mytup);
    println!("tuple element 0 = {:?}",mytup.0);
    println!("tuple element 1 = {:?}",mytup.1);
+   let mylist:[u32 ; 5] = [1,2,3,4,5];
+   println!("list = {:?}",mylist);
+   println!("list = {}",mylist[0]);
 }
