@@ -1,6 +1,8 @@
 [package]
 name = "hello_cargo"
 version = "0.1.0"
-authors = ["Pavan Kulkarni <pkulkarni@lyft.com>"]
+authors = ["Pavan Kulkarni <pavan.baburao@gmail.com>"]
 
 [dependencies]
+rand = "0.3.14"
+
